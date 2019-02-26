@@ -124,6 +124,20 @@ footer p {
     "aside"
     "footer";   
     }
+.container2 { /*for blog.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "top"
+    "middle"
+    "bottom"
+    "footer";
+    }
 
 /*This stuff is for the hamburger menu*/
 .toggleNav {
@@ -162,6 +176,20 @@ footer p {
     "aside aside"
     "footer footer";
     }
+.container2 { /*for blog.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "top"
+    "middle"
+    "bottom"
+    "footer";
+    }
 
 
 /* Below will change from hamburger menu to side navigation*/
@@ -191,6 +219,20 @@ footer p {
     "header header header"
     "nav main aside"
     "footer footer footer";
+    }
+.container2 { /*for blog.html*/
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "top"
+    "middle"
+    "bottom"
+    "footer";
     }
 	
 
