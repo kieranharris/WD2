@@ -182,13 +182,12 @@ footer p {
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "top"
-    "middle"
-    "bottom"
-    "footer";
+    "header header"
+    "nav main"
+    "top top"
+    "middle middle"
+    "bottom bottom"
+    "footer footer";
     }
 
 
@@ -226,13 +225,11 @@ footer p {
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "top"
-    "middle"
-    "bottom"
-    "footer";
+    "header header"
+    "nav main top"
+    "nav main middle"
+    "nav main bottom"
+    "footer footer";
     }
 	
 
