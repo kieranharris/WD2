@@ -225,7 +225,7 @@ footer p {
   grid-gap:.5em;
   margin:1%;
   grid-template-areas:
-    "header header"
+    "header header header"
     "nav main top"
     "nav main middle"
     "nav main bottom"
