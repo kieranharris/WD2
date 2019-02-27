@@ -111,6 +111,10 @@ footer p {
   margin:0;
 }
 
+.travelpic{
+margin: auto;
+}
+
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
