@@ -98,7 +98,12 @@ color: navy;
 padding: 10px 0;
 }
 
-article {
+article h2{
+text-align: center;
+color: navy;
+padding: 10px 0;
+}
+
 .top {
 grid-area: top;
 background:rgba(0,0,0,.2);
@@ -114,8 +119,6 @@ grid-area: bottom;
 background:rgba(0,0,0,.2);
 }
 	
-}
-
 footer {
   grid-area:footer;
   background:rgba(0,0,0,.2);
