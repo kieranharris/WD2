@@ -98,19 +98,33 @@ color: navy;
 padding: 10px 0;
 }
 
+article {
+ background:rgba(0,0,0,.2);
+ padding:5px;
+}
+
+article h2 {
+  text-align:center;
+  color:navy;
+  margin:1%;
+}
+
+article p {
+  color:white;
+  padding:1% 2%;
+  font-size:1em;
+}
+	
 .top {
 grid-area: top;
-background:rgba(0,0,0,.2);
 }
 
 .middle {
 grid-area: middle;
-background:rgba(0,0,0,.2);
 }
 
 .bottom {
 grid-area: bottom;
-background:rgba(0,0,0,.2);
 }
 	
 footer {
