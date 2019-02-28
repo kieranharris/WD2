@@ -98,6 +98,21 @@ color: navy;
 padding: 10px 0;
 }
 
+top {
+grid-area: top;
+background:rgba(0,0,0,.2);
+}
+
+middle {
+grid-area: middle;
+background:rgba(0,0,0,.2);
+}
+
+bottom {
+grid-area: bottom;
+background:rgba(0,0,0,.2);
+}
+
 footer {
   grid-area:footer;
   background:rgba(0,0,0,.2);
@@ -109,21 +124,6 @@ footer p {
   font-size:1em;
   color:white;
   margin:0;
-}
-
-.top{
-grid-area: top;
-background:rgba(0,0,0,.2);
-}
-
-.middle{
-grid-area: middle;
-background:rgba(0,0,0,.2);
-}
-
-.bottom{
-grid-area: bottom;
-background:rgba(0,0,0,.2);
 }
 
 .travelpic{
