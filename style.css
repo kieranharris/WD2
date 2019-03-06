@@ -171,6 +171,15 @@ margin: auto;
     "bottom"
     "footer";
     }
+.container3 { /*for special.html*/
+  grid-template-columns: auto 1fr 25%;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "fig2"
+    "footer";
+    }
 
 /*This stuff is for the hamburger menu*/
 .toggleNav {
@@ -222,6 +231,18 @@ margin: auto;
     "bottom bottom"
     "footer footer";
     }
+.container3 { /*for special.html*/
+  grid-template-columns: auto 1fr 25%;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "main main"
+    "fig2 fig2"
+    "footer footer";
+    }
+.nestedgrid layout:
+“section”
+“fig1”;
 
 
 /* Below will change from hamburger menu to side navigation*/
@@ -263,6 +284,15 @@ margin: auto;
     "nav main middle"
     "nav main bottom"
     "footer footer footer";
+    }
+.container3 { /*for special.html*/
+  grid-template-columns: auto 1fr 25%;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "main main"
+    "fig2 fig2"
+    "footer footer";
     }
 	
 
