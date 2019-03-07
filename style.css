@@ -149,12 +149,12 @@ grid-area: section;
 }
 
 .fig1{
-grid-area: .fig1;
+grid-area: fig1;
 background:rgba(0,0,0,.2);
 }
 
 .fig2{
-grid-area: .fig2;
+grid-area: fig2;
 background:rgba(0,0,0,.2);
 }
 
@@ -268,9 +268,11 @@ padding-top: 10px;
     "fig2 fig2"
     "footer footer";
     }
-.nestedgrid layout:
+.nestedgrid{
+grid-template-areas:
 “section”
 “fig1”;
+}
 
 
 /* Below will change from hamburger menu to side navigation*/
@@ -322,6 +324,10 @@ padding-top: 10px;
     "fig2 fig2"
     "footer footer";
     }
+.nestedgrid{
+grid-template-areas:
+“section fig1";
+}
 	
 
 	}
