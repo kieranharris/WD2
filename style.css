@@ -265,8 +265,7 @@ padding-top: 10px;
   grid-template-columns: auto 1fr 25%;
   grid-template-areas:
     "header header"
-    "nav nav"
-    "main main"
+    "nav main"
     "fig2 fig2"
     "footer footer";
     }
