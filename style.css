@@ -144,6 +144,36 @@ footer p {
 margin: auto;
 }
 
+section{
+grid-area: section;
+background:rgba(0,0,0,.2);
+}
+
+.fig1{
+grid-area: .fig1;
+background:rgba(0,0,0,.2);
+}
+
+.fig2{
+grid-area: .fig2;
+background:rgba(0,0,0,.2);
+}
+
+figure{
+margin: 0;
+text-align: center;	
+}
+
+figcaption{
+padding: 5px;
+color: navy;
+font-weight: bold;
+}
+
+figure img{
+padding-top: 10px;
+}
+
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
