@@ -145,16 +145,16 @@ margin: auto;
 }
 
 section{
-grid-area: section;
+grid-area:section;
 }
 
 .fig1{
-grid-area: fig1;
+grid-area:fig1;
 background:rgba(0,0,0,.2);
 }
 
 .fig2{
-grid-area: fig2;
+grid-area:fig2;
 background:rgba(0,0,0,.2);
 }
 
