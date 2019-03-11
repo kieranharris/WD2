@@ -201,7 +201,7 @@ padding-top: 10px;
     "footer";
     }
 .container3 { /*for special.html*/
-  grid-template-columns: auto 1fr 25%;
+  grid-template-columns:100%;
   grid-template-areas:
     "header"
     "nav"
