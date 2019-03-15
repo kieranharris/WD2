@@ -200,7 +200,7 @@ padding-top: 10px;
     "bottom"
     "footer";
     }
-.container3 { /*for special.html*/
+.container0{ /*for special.html*/
   grid-template-columns:100%;
   grid-template-areas:
     "header"
@@ -280,7 +280,7 @@ grid-template-areas:
     "bottom bottom"
     "footer footer";
     }
-.container3 { /*for special.html*/
+.container0{ /*for special.html*/
   grid-template-columns: auto 1fr;
   grid-template-areas:
     "header header"
@@ -347,7 +347,7 @@ grid-template-areas:
     "nav main bottom"
     "footer footer footer";
     }
-.container3 { /*for special.html*/
+.container0{ /*for special.html*/
   grid-template-columns: auto 1fr;
   grid-template-areas:
     "header header"
