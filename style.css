@@ -272,6 +272,37 @@ grid-template-areas:
     padding-top:10px;
     }
 
+form {
+    background-color:darkseagreen;
+    width:90%;
+    margin:auto;
+    color:white;
+    padding:10px;
+}
+
+input {
+  margin: 1px 0 10px 0;
+}
+
+.call {
+    color:navy;
+    text-align:center;
+    font-size:2em;
+    background-color:darkseagreen;
+    width:60%;
+    padding: 5px 0 0 0;
+    margin:10px auto 0 auto;
+    cursor:pointer;
+}
+
+.phone{
+    color:darkseagreen;
+    background-color:navy;
+    padding:5px;
+    text-align:center;
+    font-size:.75em;
+}
+
 
 /*-----------------------Tablet Media Query------------------------*/
 @media only screen and (min-width: 480px)  {
