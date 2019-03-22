@@ -212,6 +212,16 @@ input {
     font-size:.75em;
 }
 
+form {
+    background-color:darkseagreen;
+    width:90%;
+    margin:auto;
+    color:white;
+    padding:10px;
+}
+
+
+
 
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
