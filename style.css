@@ -212,6 +212,18 @@ input {
     font-size:.75em;
 }
 
+.nestedgrid{
+grid-area: div 1 div 2;
+}
+
+.div1{
+grid-area: div 1;
+}
+
+.div2{
+grid-area: div2;
+}
+
 form {
     background-color:darkseagreen;
     width:90%;
