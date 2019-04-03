@@ -212,16 +212,14 @@ input {
     font-size:.75em;
 }
 
-.nestedgrid{
-grid-area: div 1 div 2;
-}
-
 .div1{
 grid-area: div 1;
+color: rgba(0,0,0,.2);
 }
 
 .div2{
 grid-area: div2;
+color: rgba(0,0,0,.2);
 }
 
 form {
@@ -290,6 +288,13 @@ grid-template-areas:
     "main"
     "footer";   
     }
+
+.nestedgrid{
+display: grid;
+grid-template-areas: 
+"div 1"
+"div 2";
+}
 
 /*This stuff is for the hamburger menu*/
 .toggleNav {
@@ -363,6 +368,7 @@ grid-template-areas:
 "section"
 "fig1";
 }
+
 	
 .container4 { /*for destination.html*/
   display: grid;
@@ -374,6 +380,13 @@ grid-template-areas:
     "nav main"
     "footer footer";   
     }
+	
+.nestedgrid{
+display: grid;
+grid-template-areas: 
+"div 1"
+"div 2";
+}
 
 
 /* Below will change from hamburger menu to side navigation*/
@@ -429,6 +442,7 @@ display: grid;
 grid-template-areas:
 "section fig1";
 }
+
 	
 .container4 { /*for destination.html*/
   display: grid;
@@ -440,6 +454,12 @@ grid-template-areas:
     "nav main"
     "footer footer";   
     }
+
+.nestedgrid{
+display: grid;
+grid-template-areas: 
+"div 1 div 2";
+}
 	
 
 	}
