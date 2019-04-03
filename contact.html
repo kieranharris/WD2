@@ -29,9 +29,9 @@
       <p>Use this form to allow us to get in touch with you within 1 business day!</br>*=Required Field</p>
    <form>
     <div class="div 1">
-   Name*: <input type="text" size="30" name="fullname"></br>
+   Name*: <input type="text" size="30" placeholder="Jane Doe" autofocus required spellcheck="false" autocomplete="off"      name="fullname"></br>
    Email*: <input type="email" size="30" name="email"></br>
-   Phone*: <input type="tel" size="30" name="phone"></br>
+   Phone*: <input type="tel" size="30" placeholder="(xxx) xxx-xxxx" name="phone"></br>
    Personal Website: <input type="url" size="30" name="website"></br>
     </div>
     <div class="div 2">
@@ -44,8 +44,8 @@
      <option value="Tokyo">
      <option value="Washington D.C.">
    </datalist>
-   Expected Date of Department: <input type:"date" size="30" name="dob">
-   Number of Nights on Trip: <input type:"number" size="30" name="number">
+   Expected Date of Department: <input type:"date" size="30" placeholder="mm/dd/yyyy" name="dob">
+   Number of Nights on Trip: <input type:"number" min="1" max="8" step="1" value="6" name="numeric data">
    <input type="submit" value="Help Me Book My Trip!" class="button">
     </div>
    </form>
