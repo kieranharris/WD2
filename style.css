@@ -222,7 +222,7 @@ grid-area: div2;
 color: rgba(0,0,0,.2);
 }
 
-form {
+form{
     background-color:darkseagreen;
     width:90%;
     margin:auto;
@@ -234,6 +234,7 @@ form {
 padding: 5px;
 color: lighseagreen;
 background: navy;
+text-color: white;
 }
 
 
