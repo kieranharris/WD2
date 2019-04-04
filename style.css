@@ -296,7 +296,7 @@ grid-template-areas:
     "footer";   
     }
 
-.nestedgrid{
+.nestedgrid2{
 display: grid;
 grid-template-areas: 
 "div 1"
@@ -388,7 +388,7 @@ grid-template-areas:
     "footer footer";   
     }
 	
-.nestedgrid{
+.nestedgrid2{
 display: grid;
 grid-template-areas: 
 "div 1"
@@ -462,7 +462,7 @@ grid-template-areas:
     "footer footer";   
     }
 
-.nestedgrid{
+.nestedgrid2{
 display: grid;
 grid-template-areas: 
 "div 1 div 2";
