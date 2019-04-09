@@ -213,7 +213,7 @@ input {
 }
 
 .div1{
-grid-area: div 1;
+grid-area: div1;
 color: rgba(0,0,0,.2);
 }
 
@@ -298,8 +298,8 @@ grid-template-areas:
 .nestedgrid2{
 display: grid;
 grid-template-areas: 
-"div 1"
-"div 2";
+"div1"
+"div2";
 }
 
 /*This stuff is for the hamburger menu*/
@@ -390,8 +390,8 @@ grid-template-areas:
 .nestedgrid2{
 display: grid;
 grid-template-areas: 
-"div 1"
-"div 2";
+"div1"
+"div2";
 }
 
 
@@ -464,7 +464,7 @@ grid-template-areas:
 .nestedgrid2{
 display: grid;
 grid-template-areas: 
-"div 1 div 2";
+"div1 div2";
 }
 	
 
