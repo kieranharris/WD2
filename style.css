@@ -201,7 +201,7 @@ input {
     width:60%;
     padding: 5px 0 0 0;
     margin:10px auto 0 auto;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .phone{
@@ -210,6 +210,11 @@ input {
     padding:5px;
     text-align:center;
     font-size:.75em;
+    display: none;
+}
+
+.shadow{
+    box-shadow: 10px 10px 5px #888888;
 }
 
 .div1{
@@ -234,6 +239,7 @@ form{
 padding: 5px;
 color: lightseagreen;
 background: navy;
+cursor: pointer;
 }
 
 
