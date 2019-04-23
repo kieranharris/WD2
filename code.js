@@ -2,5 +2,6 @@
       $('.toggleNav').click(function() {
         $('#flex-nav ul').toggleClass('open');
       });
-      $('.button').click(shadow()
+     $(button).removeClass(‘shadow’);
+   $(button).addClass(‘shadow’);
     });
