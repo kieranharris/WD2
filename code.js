@@ -1,7 +1,17 @@
  $(document).ready(function() {
-      $('.toggleNav').click(function() {
+      $('.input').on("focus", function() {
+       $(this).css('outline-color','navy');      
+      });
+        $('.toggleNav').click(function() {
         $('#flex-nav ul').toggleClass('open');
       });
-     $(button).removeClass(‘shadow’);
-   $(button).addClass(‘shadow’);
+     $('.call').click(function() {
+     $('.phone').slideToggle('.slow');
+     });
+   $('.button').click(function(){
+    $(this).removeCLass('shadow');
+   });
+     $('.button').mouseleave(function(){
+     $(this).addClass('shadow');
     });
+ });
